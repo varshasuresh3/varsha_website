@@ -1,214 +1,286 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Varsha - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<title>Varsha | AI & Python Developer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="#" class="nav-logo">Varsha</a>
-            <ul class="nav-menu">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experience ">Experience And Acheivements</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
 
-    <main>
-        <section id="hero" class="hero">
-            <div class="container">
-                <h1>Varsha</h1>
-                <img src="images/profile.jpeg" alt="" class="imagey" >
-                <p class="hero-bio">My goal is to become associated with a company where I can utilize my skills and gain furtherexperience whileenhancing the ou company’s productivity and reputation. As a Computer Scienceundergraduate, I've developed asolid understanding of programming languages (Python, Java,C++), data structures, and algorithms. I'm also familiar with databases, operating systems, andsoftware engineering principles. I'm eager to explore opportunities in software development,artificial intelligence, and data science. Dedicated and adaptable professional with a proactiveattitude and the ability to learn quickly. Strong work ethic and effective communication skills.Eager to contribute to a dynamic team and support organizational goals.</p>
-                <a href="#contact" class="cta-button">Get In Touch</a>
-            </div>
-        </section>
+<header>
+  <nav class="navbar">
+    <h2 class="logo">Varsha</h2>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button id="themeToggle" class="theme-btn">🌙</button></li>
+    </ul>
+  </nav>
+</header>
 
-        <section id="projects" class="projects">
-            <div class="container">
-                <h2>My Projects</h2>
-                <div class="projects-grid">
-                    
-          <div class="project-card">
-            <h3>Spices Auction Platform AI Integrated </h3>
-            <img src="{% 'profile.jpeg' %}" alt="">
-            <p>Developed a web-based auction platform forspices, leveraging AI to enhance buyersellerinteractions and streamline the auction process.• Real-time auctions with automated bidding• AI-powered spice grading and quality assessment•Personalized recommendations for buyersBuilt using Python, Django, TensorFlow,Machine learning</p>
-            <a href="https://github.com/varshasuresh3/spices/tree/2d5e52ceb24f2689e20182367ac5bfc49f978298/spice" class="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
-          </div>
-        
-          <div class="project-card">
-            <h3>Student Management System </h3>
-            <p>Integrated SMS Functionality:Self-Service Access: Both Students and Teachers can register their details and log in securelyanytime using their unique credentials.Admin Control : The Admin retains vital control, with exclusive permissions to:•Approve or Delete student accounts, ensuring data integrity.• View the Teacher Register for central staff oversight.Tech Stack Used: Django, Mernstack, Python, JS, CSS, SQLITE</p>
-            <a href="https://github.com/varshasuresh3/djangoproject/tree/69fdc65a2cc40223699210da89e70839f8eb9dd5/secondapp" class="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
-          </div>
-        
-          <div class="project-card">
-            <h3>Project-Navigating Ethical AI Integration Empowering Logical Solutions For Tomorrow   </h3>
-            <p>Developed using•	 Machine Learning (ML) models using Python, scikit-learn, and TensorFlow</p>
-            
-          </div>
-        
-                </div>
-            </div>
-        </section>
-        
-      <section id="Experience And Acheivements" class="portfolio-section">
-    <h2><i class="fas fa-graduation-cap"></i> Experience And Acheivements</h2>
+<section id="home" class="hero">
+  <div class="hero-container">
 
-    <div class="education-item">
-        <h3>Intern at Quest Innovative Solutions under the domain of Python Fullstack Development with 
-AI
-</h3>
-        <p class="institution">Quest Innovative Solutions,Kochi,Kerala</p>
-        <p class="dates">june 2025 – currently working here</p>
-        <ul class="details">
-            <li>Currently serving as a Python Full-Stack Developer Intern at Quest Innovative Solutions. Focus on end-to-end development, integrating Python backends (Django/Flask) with modern frontend technologies</li>
-            <li>  My role actively involves applying •	AI and Machine Learning (ML) principles to enhance features and optimize application performance and functionality</li>
-        </ul>
-    </div>
+    <div class="hero-text">
+      <h1>Hi, I'm <span class="gradient">Varsha</span></h1>
+      <h2><span id="typing"></span></h2>
 
-    <div class="education-item">
-        <h3>RPA UI path certification   </h3>
-        <p class="institution">currently pursuing UiPath RPA to build expertise in automation workflows and digital process•	 automation.Level 1</p>
-        <p class="dates">july 2025 – on going</p>
-    </div>
+      <p>
+        Computer Science graduate and <b>Python Full-Stack & AI Developer</b> with hands-on experience in
+        Django, Machine Learning and automation. Passionate about building intelligent and scalable applications.
+      </p>
 
-    <div class="education-item">
-        <h3>Internship Program Under The Domain Of Artificial Intelligence At ACADEMOR</h3>
-        <p class="institution">Project-Navigating ethical AI integration empowering logical solutions for tomorrow•</p>
-        <p class="dates">oct/24 - dec/24</p>
-        <ul class="details">
-            <li>Developed using•	 Machine Learning (ML) models using Python, scikit-learn, and TensorFlow.</li>
-        </ul>
-    </div>
-    <div class="education-item">
-        <h3>Kaggle certification for Intermediate Machine Learning  </h3>
-        <p>Optimization: Hyperparameter tuning and Gradient <br>
-       ​Data Engineering: Missing value imputation and Pipelines for clean, reproducible <br>
-​Validation: Implementation of Cross-Validation for model reliability.</p>
-        <a href="https://www.kaggle.com/learn/certification/varshasuresh3/intermediate-machine-learning">View Certificate</a>
-    </div>
-    <div class="education-item">
-        <h3>Kaggle certification for Intro Into Deep Learning  </h3>
-        <p>Frameworks: TensorFlow and Keras. <br>
-​Architecture: Building multi-layer perceptrons (dense networks).  <br>
-​Optimization: Mastering loss functions, optimizers, and early stopping</p>
-        <a href="https://www.kaggle.com/learn/certification/varshasuresh3/intro-to-deep-learning">View Certificate</a>
-    </div>
-    <div class="education-item">
-        <h3>Kaggle certification for Intro Into Deep Learning  </h3>
-        <p>Analytical Power: Expertise in RANK, LEAD/LAG, and partition-based calculations.  <br>
-​Efficiency: Optimizing queries for large datasets and improving execution time.  <br>
-​Data Logic: Building multi-step logic using CTEs for readable and scalable code.
-        <a href="https://www.kaggle.com/learn/certification/varshasuresh3/advanced-sql">View Certificate</a>
-    </div>
-
-        <section id="skills" class="skills">
-            <div class="container">
-                <h2>Skills</h2>
-                <div class="skills-grid">
-                    <span class="skill-tag">Python</span><span class="skill-tag">Django</span><span class="skill-tag">TensorFlow</span><span class="skill-tag">React</span><span class="skill-tag">Web Scraping</span><span class="skill-tag">Machine Learning</span><span class="skill-tag">R.P.A</span><span class="skill-tag">JavaScript</span><span class="skill-tag">Bootstrap</span><span class="skill-tag">Automaton</span><span class="skill-tag">MongoDB</span><span class="skill-tag">Sqlite3</span><span class="skill-tag">Github</span>
-                </div>
-            </div>
-        </section>
-        <section id="education" class="portfolio-section">
-    <h2><i class="fas fa-graduation-cap"></i> Education</h2>
-
-    <div class="education-item">
-        <h3>bachelor of Science in Computer Science</h3>
-        <p class="institution">Calicut University,  State</p>
-        <p class="dates">Sept 2022 – May 2025</p>
-        <ul class="details">
-            <li>Degree: B.Sc. Computer Science</li>
-            <li>Thesis/Project: Developed a Spices Auction Platform Integrated with AI.</li>
-            <li>GPA: 7.8/10.0</li>
-        </ul>
-    </div>
-
-    <div class="education-item">
-        <h3>Higher Secondary (Plus Two)</h3>
-        <p class="institution">Parli Higher Secondary School,Palakkad</p>
-        <p class="dates">June 2020 – May 2022</p>
-        <ul class="details">
-            <li>Stream: Science (Physics, Chemistry, Mathematics)</li>
-            <li>Board:  State (State Board)</li>
-            <li>97%.</li>
-            
-        </ul>
-    </div>
-
-    <div class="education-item">
-        <h3>Secondary School (SSLC / 10th Grade)</h3>
-        <p class="institution">Parli Higher Secondary School,Palakkad</p>
-        <p class="dates">June 2018 – May 2020</p>
-        <ul class="details">
-            <li>Board: State Board (State Board)</li>
-            <li> 99%</li>
-        </ul>
-    </div>
-    <section id="languages" class="portfolio-section">
-    <div class="container">
-        <h2><i class="fas fa-language"></i> Languages Known</h2>
-        
-        <div class="languages-grid">
-            
-            <div class="language-tag">
-                <h4>English</h4>
-                <p class="proficiency">Full Professional Working Proficiency</p>
-            </div>
-            
-            <div class="language-tag">
-                <h4>Malayalam</h4>
-                <p class="proficiency">Native/Full Professional Proficiency</p>
-            </div>
-            
-            <div class="language-tag">
-                <h4>Hindi</h4>
-                <p class="proficiency">Limited Working Proficiency</p>
-            </div>
-            
-            <div class="language-tag">
-                <h4>Tamil</h4>
-                <p class="proficiency">Limited Proficiency</p>
-            </div>
-            
-        </div>
-    </div>
-</section>
-    
-
-        <section id="contact" class="contact">
-            <div class="container">
-                <h2>Contact Me</h2>
-                <div class="contact-info">
-                    
-      <div class="contact-item">
-        <strong>Email:</strong> 
-        <a href="mailto:varshashasuresh383@gmail.com">varshashasuresh383@gmail.com</a>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn-primary">Contact Me</a>
+        <a href="resume.pdf" class="btn-outline" download>Download Resume</a>
       </div>
-      <div class="contact-item"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/varsha-suresh-7309a328a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">show linkedin profile</a></div>
-      
-      
-      
-    
-                </div>
-            </div>
-        </section>
-    </main>
+    </div>
 
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 Varsha. All rights reserved.</p>
-        </div>
-    </footer>
+    <div class="hero-image">
+      <div class="glow"></div>
+      <img src="images/profile.jpeg" alt="Varsha">
+    </div>
 
-    <script src="script.js"></script>
+  </div>
+</section>
+
+<section id="projects">
+<h2>My Projects</h2>
+
+<div class="projects-grid">
+
+  <div class="project-card">
+<a href="https://github.com/varshasuresh3/spices" target="_blank">
+  <img src="images/WhatsApp Image 2026-01-14 at 11.08.04 AM.jpeg" class="project-img clickable" width="100px" height="100px">
+</a>  <h3>Spices Auction Platform (AI)</h3>
+  <p>AI-powered web platform with real-time bidding and spice quality detection.</p>
+  <p class="tech">Tech: Django, TensorFlow, ML, Python</p>
+  <a href="https://github.com/varshasuresh3/spices" target="_blank">View Project</a>
+</div>
+
+<div class="project-card">
+  <a href="https://github.com/varshasuresh3/djangoproject" target="_blank">
+  <img src="images/WhatsApp Image 2026-01-14 at 11.17.50 AM.jpeg" class="project-img clickable">
+</a>
+  <h3>Student Management System</h3>
+  <p>Multi-role login system for students, teachers and admins.</p>
+  <p class="tech">Tech: Django, JavaScript, SQLite</p>
+  <a href="https://github.com/varshasuresh3/djangoproject" target="_blank">View Project</a>
+</div>
+
+<div class="project-card">
+  <a href="https://github.com/varshasuresh3" target="_blank">
+  <img src="images/WhatsApp Image 2026-01-14 at 11.33.48 AM.jpeg" class="project-img clickable">
+</a>
+  <h3>Ethical AI Project</h3>
+  <p>ML-based solution focused on fairness and responsible AI decisions.</p>
+  <p class="tech">Tech: Python, Scikit-learn, TensorFlow</p>
+</div>
+
+<div class="project-card">
+  <img src="images/aiimage.jpeg" class="project-img">
+  <h3>Ethical AI Project</h3>
+  <p>ML-based solution focused on fairness and responsible AI decisions.</p>
+  <p class="tech">Tech: Python, Scikit-learn, TensorFlow</p>
+</div>
+</div>
+</section>
+<section id="github-projects" class="github-section">
+  <h2>More Projects on GitHub</h2>
+
+  <p class="github-text">
+    I regularly build and experiment with Python, AI, Web and Automation projects.  
+    You can explore all my repositories, mini-projects and experiments on GitHub.
+  </p>
+
+  <a href="https://github.com/varshasuresh3" target="_blank" class="github-btn">
+    🚀 Visit My GitHub
+  </a>
+</section>
+
+<section id="experience">
+<h2>Experience & Certifications</h2>
+
+<div class="experience-grid">
+
+  <div class="exp-card">
+    <h3>Python Full-Stack + AI Intern</h3>
+    <span>Quest Innovative Solutions | 2025 – Present</span>
+    <ul>
+      <li>Built Django & Flask web apps</li>
+      <li>Integrated ML models</li>
+      <li>Worked on full-stack development</li>
+    </ul>
+  </div>
+
+  <div class="exp-card">
+    <h3>RPA UiPath Level-1</h3>
+    <span>UiPath Certification</span>
+    <ul>
+      <li>Automation workflows</li>
+      <li>Bot development</li>
+    </ul>
+  </div>
+
+  <div class="exp-card">
+    <h3>AI Internship – ACADEMOR</h3>
+    <span>Oct 2024 – Dec 2024</span>
+    <ul>
+      <li>ML & TensorFlow models</li>
+      <li>Ethical AI project</li>
+    </ul>
+  </div>
+
+  <div class="exp-card"><h3>Kaggle Intermediate Machine Learning Certificate</h3>
+    <span>Optimization: Hyper parameter tuning and Gradient Boosting.
+Data Engineering: Missing value imputation and Pipelines for clean, reproducible code.
+Validation: Implementation of Cross-Validation for model reliability</span>
+    <li><a href="https://www.kaggle.com/learn/certification/varshasuresh3/intermediate-machine-learning">view certificate</a></li>
+  </div>
+
+  <div class="exp-card"><h3>Kaggle Advanced SQL Certificate</h3>
+    <span>Analytical Power: Expertise in RANK, LEAD/LAG, and partition-based calculations.
+Efficiency: Optimizing queries for large datasets and improving execution time.
+Data Logic: Building multi-step logic using CTEs for readable and scalable code.</span>
+    <li><a href="https://www.kaggle.com/learn/certification/varshasuresh3/advanced-sql">view certificate</a></li>
+  </div>
+   <div class="exp-card"><h3>Kaggle Advanced SQL Certificate</h3>
+    <span>Frameworks: TensorFlow and Keras.
+Architecture: Building multi-layer perceptrons (dense networks).
+Optimization: Mastering loss functions, optimizers, and early stopping.</span>
+    <li><a href="https://www.kaggle.com/learn/certification/varshasuresh3/intro-to-deep-learning">view certificate</a></li>
+  </div>
+
+</div>
+</section>
+
+<section id="skills" class="tech-skills">
+  <h2>Technical Skills</h2>
+
+  <div class="skills-container">
+
+    <div class="skill-block">
+      <h3>Programming</h3>
+      <p>Python, Java, JavaScript, Node.js, LLM</p>
+    </div>
+
+    <div class="skill-block">
+      <h3>Frameworks</h3>
+      <p>Django, Flask, TensorFlow, Keras</p>
+    </div>
+
+    <div class="skill-block">
+      <h3>Databases</h3>
+      <p>SQL, SQLite, MongoDB</p>
+    </div>
+
+    <div class="skill-block">
+      <h3>AI & ML</h3>
+      <p>Machine Learning, Prompt Engineering, RAG Architecture, Model Optimization</p>
+    </div>
+
+    <div class="skill-block">
+      <h3>Automation</h3>
+      <p>UiPath RPA, Automation Anywhere</p>
+    </div>
+
+    <div class="skill-block">
+      <h3>Web Technologies</h3>
+      <p>HTML, CSS, Bootstrap, Angular</p>
+    </div>
+
+    <div class="skill-block">
+      <h3>Tools & Platforms</h3>
+      <p>Git, OOPs, Agile, Web Scraping, Azure DevOps, OpenAI APIs, LangChain, Hugging Face</p>
+    </div>
+
+    <div class="skill-block">
+      <h3>Simulation & Engineering</h3>
+      <p>Python-based simulation, Model validation, Performance testing, Failure analysis, CAD/CAE data handling</p>
+    </div>
+
+    <div class="skill-block">
+      <h3>API & Testing</h3>
+      <p>Postman, Swagger, Jest, NUnit</p>
+    </div>
+
+    <div class="skill-block">
+      <h3>CI/CD</h3>
+      <p>GitHub Actions, Azure DevOps Pipelines</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="education">
+<h2>Education</h2>
+
+<div class="edu-timeline">
+
+  <div class="edu-item">
+    <div class="dot"></div>
+    <div class="edu-content">
+      <h3>B.Sc Computer Science</h3>
+      <span>Calicut University (2022 – 2025)</span>
+      <p>CGPA: 7.8</p>
+      <p>Project: AI-powered Spices Auction Platform</p>
+    </div>
+  </div>
+
+  <div class="edu-item">
+    <div class="dot"></div>
+    <div class="edu-content">
+      <h3>Plus Two (Science)</h3>
+      <span>Parli Higher Secondary School</span>
+      <p>Score: 97%</p>
+    </div>
+  </div>
+
+  <div class="edu-item">
+    <div class="dot"></div>
+    <div class="edu-content">
+      <h3>SSLC</h3>
+      <span>Parli Higher Secondary School</span>
+      <p>Score: 99%</p>
+    </div>
+  </div>
+
+</div>
+</section>
+
+<section id="contact" class="contact-section">
+  <h2>Contact Me</h2>
+
+  <div class="contact-card">
+
+    <div class="contact-item">
+      <span>📧</span>
+      <a href="mailto:varshasuresh383@gmail.com">varshasuresh383@gmail.com</a>
+    </div>
+
+    <div class="contact-item">
+      <span>🔗</span>
+      <a href="https://www.linkedin.com/in/varsha-suresh-7309a328a" target="_blank">
+        View LinkedIn Profile
+      </a>
+    </div>
+
+    <div class="contact-item">
+      
+
+<footer>
+<p>© 2025 Varsha</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
