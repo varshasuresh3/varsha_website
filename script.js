@@ -17,6 +17,7 @@ toggle.addEventListener("click", ()=>{
 const words = ["AI Developer", "Python Engineer", "Django Full-Stack Developer", "ML Enthusiast"];
 let i=0,j=0,del=false;
 
+
 function type(){
   const el=document.getElementById("typing");
   if(!del && j<=words[i].length){
